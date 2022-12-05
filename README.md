@@ -1,0 +1,3 @@
+# Sparse Tools
+
+This repository focus on calcuation and storage of huge sparse matrices. Currently it provides implement of multi-thread sparse matrix multiplication on cpu, and compressed storage on disk of sparse matrices for quickly access without loading those sparse matrices into memory. This repository benefits from [pytorch_scatter](https://github.com/rusty1s/pytorch_scatter) and [pytorch_sparse](https://github.com/rusty1s/pytorch_sparse).
